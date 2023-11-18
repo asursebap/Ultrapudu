@@ -1,0 +1,10 @@
+C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\bin\Debug\UltrapudúAvistamientos.exe.config
+C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\bin\Debug\UltrapudúAvistamientos.exe
+C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\bin\Debug\UltrapudúAvistamientos.pdb
+C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\Debug\UltrapudúAvistamientos.csproj.AssemblyReference.cache
+C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\Debug\UltrapudúAvistamientos.FormularioAvistamientos.resources
+C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\Debug\UltrapudúAvistamientos.Properties.Resources.resources
+C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\Debug\UltrapudúAvistamientos.csproj.GenerateResource.cache
+C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\Debug\UltrapudúAvistamientos.csproj.CoreCompileInputs.cache
+C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\Debug\UltrapudúAvistamientos.exe
+C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\Debug\UltrapudúAvistamientos.pdb
