@@ -1,4 +1,4 @@
-﻿namespace FormularioEdicion
+﻿namespace UltrapudúAvistamientos
 {
     partial class FormEdicion
     {
@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(279, 228);
             this.Name = "FormEdicion";
             this.Text = "FormEdicion";
+            this.Load += new System.EventHandler(this.FormEdicion_Load);
             this.ResumeLayout(false);
 
         }

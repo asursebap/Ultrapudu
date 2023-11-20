@@ -8,3 +8,4 @@ C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\D
 C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\Debug\UltrapudúAvistamientos.csproj.CoreCompileInputs.cache
 C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\Debug\UltrapudúAvistamientos.exe
 C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\Debug\UltrapudúAvistamientos.pdb
+C:\Users\Seba\source\repos\UltrapudúAvistamientos\UltrapudúAvistamientos\obj\Debug\UltrapudúAvistamientos.FormEdicion.resources

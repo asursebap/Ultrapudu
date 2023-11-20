@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="cellID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="id.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="cellEspecie.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -139,7 +139,7 @@
   <data name="logo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAAB4CAYAAAAE9le0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAD8hJREFUeF7tnQWs5MgRhjfMzMzMrJDCzMzMzIyXRGFmJoWZWVGSCzMzMzPz/63S
+        wgAADsIBFShKgAAAD8hJREFUeF7tnQWs5MgRhjfMzMzMrJDCzMzMzIyXRGFmJoWZWVGSCzMzMzPz/63S
         Sqmu3C53e968medf+nS7e3aPx213d1HPvkWLFi1atGjRokWLFi1atGjRokV7UQf733+3TkcXZxBH2f+3
         zdHWdsj1xb/Fz8WrxeXFUcWinA4uTi1uLl4gziy6dA/xHwOd82PxWHEssSjWIcVlxQfF30W5f9cRXXqE
         sB1i+am4n1jemP+LofJi4v3iH8Lfs1uJLj1d+EYtvDEfEmcTe13Mt48XfxTRvYK7iC69QkQNe/4iriL2

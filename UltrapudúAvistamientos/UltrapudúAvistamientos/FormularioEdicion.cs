@@ -2,7 +2,7 @@
 
 namespace UltrapudúAvistamientos
 {
-    internal class FormularioEdicion :
+    internal class FormularioEdicion : Form
     {
         public FormularioEdicion(DataGridViewRow selectedRow)
         {

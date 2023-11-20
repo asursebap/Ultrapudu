@@ -46,13 +46,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.cellID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cellEspecie = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cellUbicacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cellFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cellRuta = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnEditar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
@@ -124,7 +124,7 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.cellID,
+            this.id,
             this.cellEspecie,
             this.cellUbicacion,
             this.cellFecha,
@@ -217,18 +217,39 @@
             this.groupBox3.Controls.Add(this.btnEliminar);
             this.groupBox3.Controls.Add(this.btnEditar);
             this.groupBox3.Controls.Add(this.dataGridView1);
-            this.groupBox3.Location = new System.Drawing.Point(534, 163);
+            this.groupBox3.Location = new System.Drawing.Point(468, 163);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(659, 357);
             this.groupBox3.TabIndex = 18;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Historial";
             // 
-            // cellID
+            // btnEliminar
             // 
-            this.cellID.HeaderText = "ID Avistamiento";
-            this.cellID.Name = "cellID";
-            this.cellID.ReadOnly = true;
+            this.btnEliminar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnEliminar.Location = new System.Drawing.Point(199, 323);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(186, 23);
+            this.btnEliminar.TabIndex = 10;
+            this.btnEliminar.Text = "Eliminar registro";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Location = new System.Drawing.Point(7, 323);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(186, 23);
+            this.btnEditar.TabIndex = 9;
+            this.btnEditar.Text = "Editar registro";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // id
+            // 
+            this.id.HeaderText = "ID Avistamiento";
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
             // 
             // cellEspecie
             // 
@@ -255,32 +276,11 @@
             this.cellRuta.ReadOnly = true;
             this.cellRuta.Width = 200;
             // 
-            // btnEditar
-            // 
-            this.btnEditar.Location = new System.Drawing.Point(7, 323);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(186, 23);
-            this.btnEditar.TabIndex = 9;
-            this.btnEditar.Text = "Editar registro";
-            this.btnEditar.UseVisualStyleBackColor = true;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnEliminar.Location = new System.Drawing.Point(199, 323);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(186, 23);
-            this.btnEliminar.TabIndex = 10;
-            this.btnEliminar.Text = "Eliminar registro";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            this.btnEliminar.Click += new System.EventHandler(this.button1_Click);
-            // 
             // FormularioAvistamientos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1228, 609);
+            this.ClientSize = new System.Drawing.Size(1180, 609);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.logo);
@@ -326,13 +326,13 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cellID;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn cellEspecie;
         private System.Windows.Forms.DataGridViewTextBoxColumn cellUbicacion;
         private System.Windows.Forms.DataGridViewTextBoxColumn cellFecha;
         private System.Windows.Forms.DataGridViewTextBoxColumn cellRuta;
-        private System.Windows.Forms.Button btnEditar;
-        private System.Windows.Forms.Button btnEliminar;
     }
 }
 

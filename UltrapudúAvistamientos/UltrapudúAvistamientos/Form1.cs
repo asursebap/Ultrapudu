@@ -64,7 +64,7 @@ namespace UltrapudúAvistamientos
             dataGridView1.Columns.Add(eliminarButton);
         }
 
-        private void CargarDatos()
+        public void CargarDatos()
         {
             try
             {
@@ -82,8 +82,8 @@ namespace UltrapudúAvistamientos
                             string linea = archivo.ReadLine();
                             string[] datos = linea.Split('-');
 
-                            // Valida al menos 3 atributos en la linea
-                            if (datos.Length >= 3)
+                            // Valida al menos 4 atributos en la linea
+                            if (datos.Length >= 4)
                             {
                                 // Agrega los datos al DataGridView
                                 dataGridView1.Rows.Add(datos);
@@ -218,7 +218,6 @@ namespace UltrapudúAvistamientos
             if(openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 labelRuta.Text = openFileDialog1.FileName;
-                // Agregar lógica para manejar la imagen seleccionada
             }
         }
 
@@ -284,17 +283,40 @@ namespace UltrapudúAvistamientos
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
+            // Verifica si hay una fila seleccionada
             if (dataGridView1.SelectedRows.Count > 0)
             {
+                // Obtén la fila seleccionada
                 DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
 
-                // Abrir el formulario de edición
-                FormularioEdicion FormularioEdicion = new FormularioEdicion(selectedRow);
-                //formularioEdicion.ShowDialog();
+                // Verifica si la celda en la columna "Ruta" no es null
+                DataGridViewCell rutaCell = selectedRow.Cells["cellRuta"];
+                if (rutaCell.Value != null)
+                {
+                    // Obtén la ruta de la celda
+                    string ruta = rutaCell.Value.ToString();
 
-                // Actualizar el DataGridView después de la edición
-                CargarDatos();
+                    // Abrir el formulario de edición
+                    FormEdicion formEdicion = new FormEdicion(ruta);
+                    formEdicion.ShowDialog();
+                }
+                else
+                {
+                    string ruta = null;
+                    FormEdicion formEdicion = new FormEdicion(ruta);
+                    formEdicion.ShowDialog();
+                }
             }
+            else
+            {
+                // No hay fila seleccionada, maneja la situación según sea necesario
+                MessageBox.Show("No se ha seleccionado ninguna fila para editar.");
+            }
+
+            // Actualizar el DataGridView después de la edición
+            CargarDatos();
+            }
+            
         }
     }
-}
+

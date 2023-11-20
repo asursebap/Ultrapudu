@@ -8,16 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FormularioEdicion
+namespace UltrapudúAvistamientos
 {
-    public partial class FormEdicion : Form
+    internal partial class FormEdicion : Form
     {
-        public FormEdicion()
+        public FormEdicion(DataGridViewRow selectedRow)
         {
-            InitializeComponent();
+            SelectedRow = selectedRow;
         }
 
+        public DataGridViewRow SelectedRow { get; }
+
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormEdicion_Load(object sender, EventArgs e)
         {
 
         }
